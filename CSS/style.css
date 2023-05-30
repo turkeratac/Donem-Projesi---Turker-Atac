@@ -1,0 +1,730 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600); 
+
+html{                                        
+    font-family: 'Oxanium', cursive;
+}
+*{
+    margin:0px;	
+    padding:0px;
+    box-sizing: border-box;
+    list-style:none;
+}
+/* ÜST BAŞLANGIÇ */
+#top{
+    height: 10%;
+    width: 100%;
+}
+#indirim i{
+    color: rgb(250, 0, 80);
+    padding: .4rem .7rem;
+    font-size: 15px;
+}
+#indirim{
+   font-size: 13px;
+   color: #000000;
+   margin-top: 1rem;
+}
+#indirim p{
+   font-size: 13px;
+   color: #000000;
+   display: inline-block;
+   font-weight: 600;
+}
+#indirim span{
+   color: white;
+   margin: 0 .5rem 0 .5rem;
+   font-size: 15px;
+   font-weight: bold;
+   background-color: rgb(250, 0, 80);
+   border-radius: 20%;
+   padding: .6rem;
+}
+/* ÜST BİTİŞ */
+
+/* LOGO MENÜ BAŞLANGIÇ */
+#logo-menu{
+    margin-top: 0;
+}
+.logo{
+    margin: 2rem 0 0 8rem;
+}
+ul#acilirmenu>li{
+    float: left;
+    position: relative;
+    margin-right: 2rem;
+}
+ul#acilirmenu>li>a{
+    display:block;
+    text-decoration:none;
+    padding: 1rem 1.8rem;
+    font-size:15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2e2e2e;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+#acilirmenu li button{
+    display:block;
+    text-decoration:none;
+    border: none;
+    background-color: white;
+    padding: 1rem 1.8rem;
+    font-size:15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2e2e2e;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+#acilirmenu li button:hover{
+    color: rgb(250, 0, 80);
+    text-shadow: 0 0 10px rgb(250, 0, 80), 0 0 5px white;
+}
+ul#acilirmenu>li>a:hover{
+    color: rgb(250, 0, 80);
+    text-shadow: 0 0 10px rgb(250, 0, 80), 0 0 5px white;
+}
+#acilirmenu li ul li{
+    display: none;
+    text-align: center;
+}
+#acilirmenu li ul{
+    position: absolute;
+    z-index: 12000;
+    right: 10px;
+}
+#acilirmenu li:hover ul li{
+    padding: 1rem 2rem;
+    background-color: gainsboro;
+    display: block;
+    animation-name: anim;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes anim{
+    0% { 
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    } 
+}
+#acilirmenu li ul li a{
+    text-decoration:none;
+    font-size:15px;
+    font-weight: 700;
+    color: #2e2e2e;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+#acilirmenu li ul li a:hover{
+    color: rgb(250, 0, 80);
+    text-shadow: 0 0 10px rgb(250, 0, 80), 0 0 5px white;
+}
+#acilirmenu{
+    float: right;
+    position: relative;
+    margin-top: -3rem;
+}
+/* LOGO MENÜ BİTİŞ */
+
+/* ÇARK BAŞLANGIÇ */
+.wheel {
+    width: 500px;
+    height: 500px;
+    background-color: gainsboro;
+    border-radius: 50%;
+    position: relative;
+    float: right;
+    margin: 3rem 3rem 0 0;
+    transition: transform 3s ease-in-out; /* Ekledik: Animasyon geçişi için */
+}
+.segment {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform-origin: center bottom;
+    width: 2px;
+    height: 250px;
+    background-color: rgb(250, 0, 80);
+    transform: translateX(-50%);
+}
+.cark-ve-buton{
+    display: none;
+    width: 90rem;
+    height: 40rem;
+    margin: 5rem auto;
+}
+.segment img{
+    position: relative;
+    left: 1rem;
+    bottom: 2rem;
+    width: 180px;
+    height: 180px;
+}
+.dondur{
+    position: relative;
+    border: none;
+    background-color: rgb(250, 0, 80);
+    border-radius: 1rem;
+    color: white;
+    font-size: 15px;
+    margin-top: 20%;
+    margin-left: 40%;
+    padding: 1rem 2rem;
+}
+/* ÇARK BİTİŞ */
+
+/* BANNER BAŞLANGIÇ */
+  #slider {
+    border-top: 1px solid rgb(220, 220, 220);
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    border-radius: 4px;
+  }
+  
+  #slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    list-style: none;
+  }
+  
+  #slider ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 1900px;
+    height: 770px;
+    background: white;
+    text-align: center;
+    line-height: 300px;
+  }
+  
+  a.control_prev, a.control_next {
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 1rem;
+    width: auto;
+    height: auto;
+    background: #2a2a2a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  a.control_prev:hover, a.control_next:hover {
+    opacity: 1;
+    transition: all 0.2s ease;
+  }
+  
+  a.control_prev {
+    border-radius: 0 2px 2px 0;
+  }
+  
+  a.control_next {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+  }
+
+/* BANNER BİTİŞ */
+
+/* FAVORİ ŞUBELER BAŞLANGIÇ */
+#favori-subeler{
+    margin: 5rem 0;
+}
+#favori-subeler img{
+    transition-duration: 0.2s;
+    border-radius: 1rem;
+    transform: scale(0.8);
+}
+#favori-subeler a:hover img{
+    filter: brightness(150%);
+    transform: scale(0.9);
+}
+#favori-subeler h1{
+    margin-bottom: 2rem;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(250, 0, 80), 0 0 5px white;
+}
+/* FAVORİ ŞUBELER BİTİŞ */
+
+/* UYGULAMA BAŞLANGIÇ */
+#mobil-uygulama-indir{
+    background-color: rgb(250, 0, 80);
+}
+#indir-yazi{
+    padding: 8rem 0 5rem 8rem;
+}
+#indir-yazi h5{
+    color: white;
+}
+#indir-yazi h6{
+    color: whitesmoke;
+    margin-top: 3rem;
+}
+#indir-linkler img{
+    width: 12rem;
+    height: 4.3rem;
+    float: right;
+    margin: -11rem 10rem 10rem 0;
+}
+/* UYGULAMA BİTİŞ */
+
+/* FOOTER BAŞLANGIÇ */
+#footer{
+    padding-top: 3rem;
+    background-color: gainsboro;
+    display: inline-block;
+    width: 100%;
+}
+.kap{
+    margin-top: 3rem;
+    display: inline-block;
+    width: 100%;
+}
+.copy{
+    color:gray;
+    font-size:15px;
+}
+#hakkimizda{
+    float: left;
+    width:30rem;
+    margin-left:20rem;
+}
+.footer-baslik{
+    padding-bottom:10px;
+    border-bottom:1px solid gray;
+    width:50%;
+    margin-bottom:2rem;
+    color:gray;
+    font-size:18px;
+}
+.footer-font{
+    color:gray;
+    font-size:13px;
+    text-align: justify;
+}
+.yazi-kutusu{
+    width:100%;
+    background-color: white ;
+    padding: .5rem 1rem;
+    border:1px solid gray;
+    margin-bottom:1rem;
+    color:gray;
+    font-size:15px;
+}
+#sitemap{
+    float: right;
+    margin-right: 20rem;
+    width: 30rem;
+}
+#sitemap a{
+    color: gray;
+    text-decoration: none;
+}
+#sitemap li{
+    margin-bottom: 5px;
+}
+#sitemap a:hover{
+    color:rgb(250, 0, 80);
+}
+/* ANASAYFA BİTİŞ */
+
+/* ŞUBELER BAŞLANGIÇ */
+#subeler{
+    margin: 5rem auto;
+}
+#sube{
+    border-bottom: 1px solid rgb(250, 0, 80);
+    height: 20rem;
+    margin: auto;
+}
+.sayfa-basligi{
+    margin-bottom: 3rem;    
+}
+.sayfa-basligi h1{
+    text-align: center;
+    width: 30rem;
+    margin: auto;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgb(250, 0, 80);
+}
+#sube:last-child{
+    border: none;
+}
+#sube-bilgi{
+    position: absolute;
+    margin: 2rem 4rem;
+}
+#sube img{
+    border: 2px solid black;
+    width: 30rem;
+    height: 18rem;
+    border-radius: 1rem;
+    float: right;
+    margin: 1rem 3rem;
+}
+#sube-bilgi a{
+    text-decoration: none;
+    font-size: 15px;
+    position: absolute;
+    color: white;
+    background-color: rgb(250, 0, 80);
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+#sube-bilgi a:hover{
+    background-color: gainsboro;
+    color: rgb(250, 0, 80);
+}
+/* ŞUBELER BİTİŞ */
+
+/* YEMEK TARFİLERİ BAŞLANGIÇ */
+#satir{
+    margin: 3rem auto 0 auto;
+}
+#yemek{ 
+    padding: 0;
+    border: 1px solid rgb(250, 0, 80);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+#yemek:hover{
+    box-shadow: 0 0 .5rem rgb(250, 0, 80);
+}
+#yemek img{
+    width: 100%;
+    height: 70%;
+}
+#yemek h3{
+    margin-top: 1rem;
+    text-align: center;
+}
+#yemek p{
+    margin-top: 1rem;
+    text-align: center;
+}
+#yemek a{
+    text-decoration: none;
+    color: #2e2e2e;
+}
+#tarifler{
+    margin: 5rem auto;
+}
+/* TARİFLER BİTİŞ */
+
+/* TARİF SAYFASI BAŞLANGIÇ */
+#yemek-sayfa{
+    margin: 5rem auto;
+    padding: 0 10rem 0 5rem;
+}
+#yemek-sayfa-resim{
+    display: inline-block;
+    margin-left: 15rem;
+}
+#yemek-sayfa-resim img{
+    width: 35rem;
+    border-radius: 1rem;
+}
+#yemek-sayfa-tarif{
+    float: right;
+    width: 50rem;
+    background-color: rgb(250, 0, 80, 10%);
+    padding: 1rem;  
+    border-radius: 1rem;
+}
+#yemek-sayfa-yapilis{
+    background-color: rgb(250, 0, 80, 10%);
+    padding: 1rem;
+    margin: 5rem 0 0 15rem;
+    border-radius: 1rem;
+}
+#yemek-sayfa-ust{
+    display: inline-block;
+    width: 100%;
+}
+/* TARİF SAYFASI BİTİŞ */
+
+/* İLETİŞİM BAŞLANGIÇ */
+#iletisim{
+    margin: 5rem auto;
+}
+#iletisim-ust{
+    display: inline-block;
+    width: 100%;
+    padding: 2rem 0 2rem 0;
+}
+#iletisim-ust-sol a{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+#iletisim-ust-sol i{
+    font-size: 1.5rem;
+    margin-left: 1rem;  
+    margin-top: 3rem;
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+#iletisim-ust-sol{
+    display: inline-block;
+    margin-left: 15rem;
+}
+#iletisim a:hover{
+    color: rgb(250, 0, 80);
+}
+#iletisim-ust-sag{
+    float: right;
+    margin-right: 15rem;
+}
+#iletisim-ust-sag input{
+    display: block;
+    width: 40rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    height: 4rem;
+    border: 2px solid rgb(250, 0, 80);
+    border-radius: 1rem;
+}
+#iletisim-ust-sag input:nth-child(2){
+    margin-top: 2rem;
+}
+#iletisim-ust-sag textarea{
+    margin-top: 2rem;
+    display: block;
+    width: 40rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: 2px solid rgb(250, 0, 80);
+    border-radius: 1rem;
+}
+#iletisim-ust-sag a{
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 10rem;
+    font-size: 1.5rem;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    padding: .5rem;
+    border: 2px solid rgb(250, 0, 80);
+    border-radius: 1rem;
+}
+#iletisim-alt{
+    text-align: center;
+    margin-top: 3rem;
+}
+#iletisim-alt iframe{
+    border-radius: 1rem;
+}
+/* İLETİŞİM BİTİŞ */
+
+/* İL MAĞAZA BAŞLANGIÇ */
+#il-sube{
+    margin: 5rem auto;
+}
+#sube-magaza{
+    padding: 0 0 0rem 10%;
+    border-bottom: 1px solid rgb(250, 0, 80);
+    width: 60%;
+    margin: auto;
+}
+#sube-magaza-bilgi{
+    margin: 2rem auto;
+    padding-top: .5rem;
+}
+#magaza-satir{
+    margin-top: 2rem;
+}
+#sube-magaza-resim{
+    float: left;
+}
+#sube-magaza img{
+    border: 2px solid black;
+    width: 15rem;
+    border-radius: 1rem;
+    margin: 0 3rem;
+}
+#sube-magaza-bilgi p{
+    font-size: 1rem;
+}
+#sube-magaza-urunler{
+    margin-top: 3rem;
+    overflow: hidden;
+}
+#sube-magaza-urun{
+    width: 40rem;
+    border: 1px solid gray;
+    box-shadow: 5px 8px 10px 0px rgb(0 0 0 / 20%);
+    position: relative;
+    border: 5px sold purple;
+}
+#sube-magaza-urun-icerik{
+    margin-top: 2rem;
+    width: 40rem;
+}
+#sube-magaza-urun-icerik span{
+    text-decoration: line-through;
+    color: gray;
+}
+#sube-magaza-urun-resim{
+    float: left;
+    margin-right: 3rem;
+}
+#sube-magaza-urun-resim img{
+    width: 10rem;
+}
+
+/* İL MAĞAZA BİTİŞ */
+
+/* GİRİŞ KAYIT BAŞLANGIÇ */
+#giris-kayit{
+    margin: 5rem auto;
+}
+#giris-kayit-ust{
+    display: inline-block;
+    width: 100%;
+    padding: 2rem 0 2rem 0;
+}
+#kayit-ol{
+    float: right;
+    margin-right: 20rem;
+}
+#kayit-ol input{
+    scale: .9;
+    display: block;
+    margin-top: 2rem;
+    width: 30rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    height: 4rem;
+    border: 2px solid rgb(250, 0, 80);
+    border-radius: 1rem;
+}
+
+#kayit-ol a{
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 10rem;
+    font-size: 1.5rem;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    padding: .5rem;
+    border: 2px solid rgb(250, 0, 80);
+    border-radius: 1rem;
+}
+#giris-yap{
+    margin-left: 20rem;
+    float: left;
+}
+#giris-yap input{
+    scale: .9;
+    display: block;
+    margin-top: 2rem;
+    width: 30rem;
+    font-size: 1.5rem;
+    padding: .5rem;
+    height: 4rem;
+    border: 2px solid rgb(250, 0, 80);
+    border-radius: 1rem;
+}
+
+#giris-yap a{
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 10rem;
+    font-size: 1.5rem;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    padding: .5rem;
+    border: 2px solid rgb(250, 0, 80);
+    border-radius: 1rem;
+}
+/* GİRİŞ KAYIT BİTİŞ */
+
+#bulunamadi{
+    text-align: center;
+}
+#bulunamadi h1{
+    margin-top: 10rem;
+    color: rgb(143, 4, 48);
+    font-size: 175px;
+}
+#bulunamadi h2{
+    font-size: 50px;
+}
+#bulunamadi a{
+    background-color: rgb(250, 0, 80);
+    padding: 1rem 2rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 1rem;
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 5rem;
+    transition-duration: .2s;
+}
+#bulunamadi a:hover{
+    background-color: rgb(143, 4, 48);
+}
+@keyframes slideIn {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(460%);
+    }
+  }
+  .slide-in-image img{
+    scale: .7;
+    margin-top: 20%;
+  }
+  .slide-in-image {
+    z-index: 10001;
+    left: -50%;
+    position: absolute;
+    animation: slideIn 4s ease-in-out;
+  }
+  #black-overlay {
+    position: fixed;
+    padding-top: 1rem;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    opacity: 1;
+    z-index: 9999;
+    transition: opacity 3s;
+  }
+  #black-overlay p{
+    color: gray;
+    font-size: 35px;
+    text-align: center;
+  }

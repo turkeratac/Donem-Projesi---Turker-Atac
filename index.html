@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Türker Ataç - Proje - Anasayfa</title>
+    <link rel="icon" href="fotoğraflar/favicon.png" type="image/x-icon" />
+    <meta name="description" content="Türker Ataç - Döenm Projesi">
+    <!-- <meta name="keywords" content="Web Tasarım, WordPress, Yazılım, Freelancer"> -->
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js"></script>
+</head>
+<body>
+    <div id="black-overlay"><p>Kaliteli Hizmet Yükleniyor ...</p></div>
+    <div class="slide-in-image">
+        <img src="fotoğraflar/kurye.png" alt="Resim">
+    </div>
+    <marquee behavior="scroll" direction="left" loop="infinite" onmouseover="stop()" onmouseout="start()" scrollamount="15" start="50%">
+        <header id="top">
+            <div id="indirim">
+                <p style="margin-right: 15rem;">Okula Dönüş İndirimleri Başladı ! Sadece <span>20</span> Gün Kaldı !</p>
+                <p>İndirimleri Kaçırmamak İçin Takip Et : </p>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://pinterest.com" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+           </div>
+        </header>
+    </marquee>
+    <div style="border: 1px solid gainsboro;"></div>
+    <nav id="logo-menu">
+        <div class="logo">
+            <a href="index.html"><img src="fotoğraflar/yemekburada.png"></a>
+        </div>
+        <div id="menu">
+            <ul id="acilirmenu" class="temizle">
+                <li><button id="slidetoggle" name="slidetoggle">Çarkı Çevir!</button></li>
+                <li><a href="index.html">ANASAYFA</a></li>
+                <li class="sube-menu"><a href="subelerimiz.html">ŞUBELERİMİZ</a>
+                    <ul class="sube-ul">
+                        <li><a href="istanbul-sube.html">İSTANBUL</a></li>
+                        <li><a href="ankara-sube.html">ANKARA</a></li>
+                        <li><a href="izmir-sube.html">İZMİR</a></li>
+                        <li><a href="antalya-sube.html">ANTALYA</a></li>
+                    </ul>
+                </li> 
+                <li><a href="tarifler.html">TARİFLER</a></li>
+                <li><a href="iletisim.html">İLETİŞİM</a></li>
+                <li><a href="giris-kayit.html"><i class="fas fa-user"></i></a></li>
+                <!--
+                    <li><a href="#">SİPARİŞLERİM</a></li>
+                    <div id="menu-market">
+                        <i class="fas fa-shopping-basket"></i>
+                    </div>
+                -->
+            </ul>
+        </div>
+    </nav>
+    <!-- Top kısmı buraya kadar alınacak. -->
+
+    <div class="cark-ve-buton">
+        <button class="dondur" onclick="spinWheel()">Şanslı Yemeğini Gör!</button>
+        <div class="wheel">
+            <div class="segment" id="Big Mac™ Menü">    <img src="fotoğraflar/bigmac.png" alt="">   </div>
+            <div class="segment" id="Antep Baklavası">  <img src="fotoğraflar/baklava.png" alt="">  </div>
+            <div class="segment" id="Çiğköfte Menü">    <img src="fotoğraflar/cigkofte.png" alt=""> </div>
+            <div class="segment" id="Orta Boy Karışık Pizza">   <img src="fotoğraflar/pizza-karisik.png" alt="">    </div>
+            <div class="segment" id="İkili Tavukburger Menü">   <img src="fotoğraflar/tavukburger.png" alt="">  </div>
+            <div class="segment" id="Şefin Tavası Menü">    <img src="fotoğraflar/sefin-tavasi.png" alt=""> </div>
+        </div>
+    </div>
+
+    <div id="slider">
+        <a href="#" class="control_next">></a>
+        <a href="#" class="control_prev"> < </a>
+        <ul>
+          <li><img src="fotoğraflar/slider-1.png" alt=""></li>
+          <li><img src="fotoğraflar/slider-2.png" alt=""></li>
+          <li><img src="fotoğraflar/slider-3.png" alt=""></li>
+        </ul>  
+    </div>
+
+    <section id="favori-subeler">
+        <h1>Favori Şubelerimiz</h1>
+        <marquee direction="right" behavior="alternate" onmouseover="stop()" onmouseout="start()" scrollamount="15">
+            <a href="istanbul-sube.html" target="_blank"><img src="fotoğraflar/istanbul-sube.png"></a>
+            <a href="ankara-sube.html" target="_blank"><img src="fotoğraflar/ankara-sube.png"></a>
+            <a href="izmir-sube.html" target="_blank"><img src="fotoğraflar/izmir-sube.png"></a>
+            <a href="antalya-sube.html" target="_blank"><img src="fotoğraflar/antalya-sube.png"></a>
+            <a href="404.html"><img src="fotoğraflar/giresun-sube.png"></a>
+            <a href="404.html"><img src="fotoğraflar/ordu-sube.png"></a>
+        </marquee>
+    </section>
+        
+
+    <section id="mobil-uygulama-indir">
+        <div id="indir-yazi">
+            <h5>Yemek ve market ihtiyaçlarının tamamı için hemen indir!</h5>
+            <h6>Yemek, hızlı market ya da çevredeki esnaflardan tüm ihtiyaçların dakikalar içinde kapında. <br> Yemekburada’yı indir, sepetini oluşturup siparişini ver, 
+                online ya da kapıda dilediğin gibi öde.</h6>
+        </div>
+        <div id="indir-linkler">
+            <a href="https://apps.apple.com/tr/app/yemeksepeti-food-grocery/id373034841?l=tr" target="_blank"><img src="fotoğraflar/app-store.png" alt=""></a>
+            <a href="https://play.google.com/store/apps/details?id=com.inovel.app.yemeksepeti" target="_blank"><img src="fotoğraflar/google-play.png" alt=""></a>
+        </div>
+    </section>
+
+    <!-- Footer kopyalama başlangıç -->
+    <footer id="footer">
+            <div id="hakkimizda">
+                <h2 class="footer-baslik">Yemekburada Hakkında</h2>
+                <p class="footer-font">Uzun yıllardır profesyonel kadromuz ve lezzetli yiyeceklerimiz ile siz değerli müşterilerimize kaliteli hizmet sunmaktayız.</p>
+                <p class="footer-font">Kalitenin adresi olan şirketimizin misyonu en kısa zamanda Türkiye'nin her ilinde kıdemli personeller, leziz yemekler bulunan şubeler
+                    açmak, bu kaliteli hizmeti tüm Türkiye'ye yaymayı sağlamaktır.
+                </p>
+            </div>
+                
+            <div id="sitemap">
+                <h2 class="footer-baslik">Site Haritası</h2>
+                <li><a href="index.html">ANASAYFA</a></li>
+                <li><a href="subelerimiz.html">ŞUBELERİMİZ</a></li> 
+                <li><a href="tarifler.html">TARİFLER</a></li>
+                <li><a href="iletisim.html">İLETİŞİM</a></li>
+                <li><a href="giris-kayit.html"><i class="fas fa-user"></i></a></li>
+            </div>
+            <div class="kap">
+                <marquee behavior="scroll" direction="left" loop="infinite" onmouseover="stop()" onmouseout="start()" scrollamount="15" start="50%">
+                    <p class="copy">yemekburada © copyrights 2023 - by <a href="https://www.intagram.com/turker.atac">@turker.atac</a></p>
+                </marquee>
+            </div>
+    </footer>
+    
+    <!-- Footer bitiş -->
+
+    <!--
+    <a href="https://api.whatsapp.com/send?phone=+905425068183" target="_blank">
+        <i class="fa-whatsapp" style="color: #00ff00;z-index: 10000; "></i>
+    </a>
+    -->
+    
+</body>
+</html>
