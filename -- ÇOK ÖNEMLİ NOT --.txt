@@ -1,0 +1,19 @@
+<----- RESPONSİVE TEMA İSTENMEDİĞİ İÇİN SİTE 1920X1080 ÇÖZÜNÜRLÜĞE GÖRE (%100 oranda) YAPILMIŞTIR. Oran %125 ise chrome penceresi %80 olmalıdır.----->
+
+1 - Footer kısmında telif hakkı işareti ve yazısı kayan yazı şeklinde yapılmıştır.
+
+2- Lightbox konusunda Nazmiye hoca ile görüştüm, toplu resim koyma alanım bulunmadığı için Slider kısmındaki geçiş efektini ve tasarımı kabul etti.
+
+3 - Sitemde bulunan animasyonlar 
+	a. Anasayfa açılışında ekran kararması ve motorun hareketi. (Kabul edildi.)
+	b. Çarkı Çevir butonuna basıldığında ekranın kayması.
+	c. Çark animasyonu.
+
+4 - Neon ışıklandırmalar menü üzerinde herhangi bir elemanın üzerine gelindiğinde oluşmakta. Ve anasayfada "Favori Şubelerimiz" kısmında bulunmakta.
+
+5 - İletişim sayfasında istenen yerler oluşturuldu, mesaj kısmı maksimum 150 kelimelik yapıldı.
+
+6 - Slide-up ve Slide-down konusunu Nazmiye hoca ile görüştüm. Hamburger menüm olmadığı için menüde "Şubelerimiz" butonunun üzerine gelindiğinde farklı bir animasyon kullanarak açılmasını sağladım. (Kabul edildi.)
+
+7 - Nazmiye hocanın istediği gibi bilgiler yazıldıktan sonra Gönder butonu ile kayıt edilmekte, Çek butonu ile ekranda ilgili yerlere yazılmakta.
+	(/veri-cek-gonder.html)
