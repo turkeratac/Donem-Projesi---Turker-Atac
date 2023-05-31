@@ -1,4 +1,6 @@
-<----- RESPONSİVE TEMA İSTENMEDİĞİ İÇİN SİTE 1920X1080 ÇÖZÜNÜRLÜĞE GÖRE (%100 oranda) YAPILMIŞTIR. Oran %125 ise chrome penceresi %80 olmalıdır.----->
+<----- RESPONSİVE TEMA İSTENMEDİĞİ İÇİN 
+SİTE 1920X1080 ÇÖZÜNÜRLÜĞE GÖRE (%100 windows ölçeği) YAPILMIŞTIR. 
+Windows Görüntü ayarlarında ölçek %125 ise chrome penceresi yakınlaştırması %80 olmalıdır.----->
 Çözünürlük 1600x900 ise chrome ölçeği %80 olmalıdır.
 Çözünürlük 1366x768 ise chrome ölçeği %67 olmalıdır.
 
