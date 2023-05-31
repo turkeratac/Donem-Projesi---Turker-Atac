@@ -16,3 +16,4 @@
 6 - Slide-up ve Slide-down konusunu Nazmiye hoca ile görüştüm. Hamburger menüm olmadığı için menüde "Şubelerimiz" butonunun üzerine gelindiğinde farklı bir animasyon kullanarak açılmasını sağladım. (Kabul edildi.)
 
 7 - Nazmiye hocanın istediği gibi bilgiler yazıldıktan sonra Gönder butonu ile kayıt edilmekte, Çek butonu ile ekranda ilgili yerlere yazılmakta.
+	(/veri-cek-gonder.html)
