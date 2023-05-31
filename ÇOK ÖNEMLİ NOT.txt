@@ -1,4 +1,4 @@
-<----- RESPONSİVE TEMA İSTENMEDİĞİ İÇİN SİTE 1920X1080 ÇÖZÜNÜRLÜĞE GÖRE YAPILMIŞTIR. ----->
+<----- RESPONSİVE TEMA İSTENMEDİĞİ İÇİN SİTE 1920X1080 ÇÖZÜNÜRLÜĞE GÖRE (%100 oranda) YAPILMIŞTIR. ----->
 
 1 - Footer kısmında telif hakkı işareti ve yazısı kayan yazı şeklinde yapılmıştır.
 
