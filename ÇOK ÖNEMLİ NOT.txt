@@ -1,4 +1,4 @@
-<----- RESPONSİVE TEMA İSTENMEDİĞİ İÇİN SİTE 1920X1080 ÇÖZÜNÜRLÜĞE GÖRE (%100 oranda) YAPILMIŞTIR. ----->
+<----- RESPONSİVE TEMA İSTENMEDİĞİ İÇİN SİTE 1920X1080 ÇÖZÜNÜRLÜĞE GÖRE (%100 oranda) YAPILMIŞTIR. Oran %125 ise chrome penceresi %80 olmalıdır.----->
 
 1 - Footer kısmında telif hakkı işareti ve yazısı kayan yazı şeklinde yapılmıştır.
 
